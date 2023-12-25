@@ -9,3 +9,5 @@ dads_name=input("what is your dads_name;")
 pat_name=input("what is your pat_name;")
 
 print("your age" + str("age + 15"))
+
+
