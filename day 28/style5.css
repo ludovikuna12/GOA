@@ -1,0 +1,25 @@
+table{
+    font-size: 5pc;
+    margin-top:50px ;
+    position:absolute ;
+}
+tr:nth-child(1){
+    background-color: rgb(31, 29, 29);
+}
+tr:nth-child(2){
+    background-color: azure;
+}
+tr:nth-child(3){
+    background-color: white;
+}
+tr:nth-child(4){
+    background-color: azure;
+}
+tr:nth-child(5){
+    background-color: white;
+}
+tr:nth-child(6){
+    background-color: azure;
+}
+
+

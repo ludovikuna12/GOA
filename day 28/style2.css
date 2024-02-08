@@ -1,0 +1,21 @@
+table{
+    font-size: 50px;
+}
+tr:nth-child(1){
+    background-color: rgb(97, 97, 208);
+}
+tr:nth-child(2){
+    background-color: rgb(135, 128, 172)}
+    tr:nth-child(3){
+   background-color: rgb(192, 189, 209)}
+
+tr:nth-child(4){
+ background-color: rgb(135, 128, 172)}
+ tr:nth-child(5){
+    background-color: rgb(192, 189, 209)}
+    tr:nth-child(6){
+        background-color: rgb(135, 128, 172)}
+        tr:nth-child(7){
+            background-color: rgb(192, 189, 209)}
+            tr:nth-child(8){
+                background-color: rgb(135, 128, 172)}

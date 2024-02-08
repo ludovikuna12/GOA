@@ -1,0 +1,27 @@
+table{
+    font-size: 60px;
+}
+td:nth-child(1){
+    background-color: rgb(195, 193, 193);
+}
+td:nth-child(2){
+    background-color: rgb(112, 154, 94);
+}
+td:nth-child(3){
+    background-color: rgb(65, 92, 134);
+}
+td:nth-child(4){
+    background-color: rgb(75, 149, 145);
+}
+
+
+
+
+
+
+
+
+
+
+
+
