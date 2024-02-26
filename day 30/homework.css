@@ -1,0 +1,79 @@
+.zd{
+    display: flex;
+    gap: 40px;
+    font-size: 24px;
+    align-items: center;
+    text-shadow: 4px 4px 4px green;
+}
+#img{
+    height: 80px;
+    width: 80px;
+    border: 2px solid green;
+}
+
+body{
+    background-color: rgb(17, 15, 15);
+    background: linear-gradient(to top green rgb(0, 0, 0));
+}
+#img2{
+    height:450px;
+    width: 450px;
+    margin: 20px;
+}
+#po{
+    margin-top: 60px;
+    margin-left: 520px;
+    margin-top: -460px;
+    font-size: 10px;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px green;
+  }
+  
+  .ei{
+    margin-top: 350px;
+    margin-left: 520px;
+    margin-top: -2px;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px green;
+  }
+  #luka{
+    margin-top: 350px;
+    margin-left: 520px;
+    margin-top: 5px;
+    font-size: 30px;
+    text-shadow: 2px 2px 2px green;
+  }
+  #lukai{
+    margin-top: 350px;
+    margin-left: 520px;
+    margin-top: 6px; 
+    font-size: 30px;
+    text-shadow: 2px 2px 2px green;
+  }
+  #auu{
+    margin-top: 350px;
+    margin-left: 520px;
+    margin-top: 6px; 
+    font-size: 30px;
+    text-shadow: 2px 2px 2px green;
+  }
+  #pink{
+    margin-top: 350px;
+    margin-left: 520px;
+    margin-top: 6px; 
+    font-size: 30px;
+    text-shadow: 2px 2px 2px green;
+  }
+  #you{
+    margin-top: 350px;
+    margin-left: 520px;
+    margin-top: 6px; 
+    font-size: 30px; 
+    text-shadow: 2px 2px 2px green;
+  }
+  #conteiner{
+    top: 50px;
+  }
+a{
+  color: green;
+}
