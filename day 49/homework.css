@@ -1,0 +1,55 @@
+#conteiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around; 
+    height: 650px;
+    width: 1000px;
+    background-color: white;
+    border: 2px solid black;
+}
+#itam1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: azure;
+}
+#itam2{
+    
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: azure;
+}
+#itam3{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: azure;
+}
+#itam4{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: azure;
+}
+img{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+}
+.luka{
+    font-size: 30px;
+    text-align: center;
+}
+#ok{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ura{
+    display: flex;
+    color: grey;
+    justify-content: center;
+    align-items: center;
+}
