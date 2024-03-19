@@ -1,0 +1,12 @@
+img{
+    height: 300px;
+    width: 300px;
+    display: block;
+    margin: auto;
+    border:  3px solid black;
+}
+button{
+    width: 80px;
+    display: block;
+    margin: auto;
+}
