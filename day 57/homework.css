@@ -1,0 +1,16 @@
+img{
+    height: 300px;
+    width: 400px;
+    display: block;
+    margin: auto;
+    border:  3px solid white;
+}
+button{
+    width: 80px;
+    display: block;
+    margin: auto;
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+}
+
