@@ -1,0 +1,53 @@
+#oik
+{
+    width: 1519px;
+    height: 999px;
+    background-color: #252839;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#lika
+{
+    width: 555px;
+    height: 555px;
+    background-color: rgb(41, 36, 36);
+    margin:0 auto;
+    margin-bottom: 0 auto;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 70px;
+    border: 3px solid white;
+
+}
+.no
+{
+    text-align: center;
+    font-size: 60px;
+    text-shadow: 4px 4px 4px black;
+}
+#qut
+{
+    height:500px ;
+    width: 200px;
+    background-color: aliceblue;
+    margin-left: 1000px;
+}
+input{
+    font-size: 20px;
+    margin: 20px;
+}
+label{
+    color: white;
+    font-size: 25px;
+}
+.a1
+{
+    width: 50px;
+   height: 50px;
+   border: 0;
+   margin: 0;
+
+}
