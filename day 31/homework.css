@@ -1,0 +1,107 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins' sans-serif;
+} 
+.bigDiv{
+    
+    background-color: white;
+    display: flex;
+    justify-content: center;
+ color: rgb(0, 126, 0);
+}
+
+nav{
+    position: relative;
+    width: 524px;
+    height: 50px;
+    background-color: #222;
+    border-radius:8px ;
+    display: flex;
+    justify-content: center;
+    align-items:center ;
+    gap: 10px;
+}
+
+nav a{
+    position: relative;
+    display: inline-block;
+    font-size: 1em;
+    font-weight: 500;
+    color: #fff;
+    text-decoration: none;
+    padding: 0 23px;
+    z-index: 1;
+}
+
+nav span{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 95px;
+    height:100% ;
+    background: linear-gradient(45deg, #6abd49, rgb(2, 87, 2));
+    border-radius: 8px;
+    transition: 1s;
+}
+
+nav a:nth-child(1):hover~span{
+    left: 0;
+}
+
+nav a:nth-child(2):hover~span{
+    left: 95px;
+}
+
+nav a:nth-child(3):hover~span{
+    left: 189px;
+    width: 110px;
+}
+
+nav a:nth-child(4):hover~span{
+    left: 289px;
+    width: 115px;
+}
+
+
+nav a:nth-child(5):hover~span{
+    left: 413px;
+    width: 110px;
+}
+
+button{
+    color: black;
+    background-color: white;
+    transform: 1s;
+}
+
+button:hover{
+    width: 50x;
+    height: 50px;
+
+}
+
+.Goaimg{
+    margin: 30px;
+    height: 330px;
+    width: 330px;
+    border: 5px solid blue ;
+    transition: transform 1s ;
+}
+
+.Goaimg:hover{
+    border: 6px solid green;
+    transform: translateX(170%);
+}
+
+
+
+.divp{
+    text-align: center;
+}
+
+p{
+    font-size: 25px;
+    text-shadow: 2px 2px 2px green;
+}
