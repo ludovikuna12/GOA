@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="homework.css">
+</head>
+<body>
+<div id="div1">
+    <h1 id="main">0</h1>
+    <button id="btn">in</button>
+</div>
+<div id="div"></div>
+</body>
+<script>
+    let x = 1
+    document.getElementById("btn")
+    addEventListener("click",call)
+    function call() {
+        document.getElementById("main").innerText=x
+        x=x+1
+        document.getElementById("main").style = "green"
+    }
+</script>
+</html>
