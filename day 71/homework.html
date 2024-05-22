@@ -7,20 +7,13 @@
     <link rel="stylesheet" href="homework.css">
 </head>
 <body>
-<div id="div1">
-    <h1 id="main">0</h1>
-    <button id="btn">incris</button>
-</div>
-<div id="div"></div>
+   <div id="parent"></div>
+    <div id="chaild">
+        <label for="" id="lebel">0</label>
+        <button id="plus">plus</button>
+        <button id="restart">restart</button>
+        <button id="mines">mines</button>
+    </div>
+   <script src="homework.js"></script>
 </body>
-<script>
-    let x = 1
-    document.getElementById("btn")
-    addEventListener("click",call)
-    function call() {
-        document.getElementById("main").innerText=x
-        x=x+1
-        document.getElementById("main").style = "green"
-    }
-</script>
 </html>

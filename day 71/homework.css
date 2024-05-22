@@ -1,26 +1,61 @@
-#main{
-text-align: center;
+*{
+    padding: 0px;
+    margin: 0px;
 }
-#btn{
-display: block;
-margin: auto;
-}
-#div1{
-    height: 400px;
-    width: 300px;
-    background-color: blue;
-    display: block;
-    margin: auto;
-    border-radius: 10%;
-}
+
+
 body{
+    background-color: #13162b;
+    height: 100vh;
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
-#div{
+
+
+#parent{
+    background-color: #0083f7;
+    height: 450px;
+    width: 500px;
+    border-radius: 20px;
+    margin-left: 40%;
+}
+
+
+#chaild{
+    background-color: #161d59;
+    height:600px;
     width: 400px;
-    height: 300px;
-    background-color: rgb(78, 78, 169);
-    border-radius: 10%;
+    box-shadow: 5px 5px 5px #111427, -5px 5px 5px #111427;
+    position: relative;
+    left: -525px;
+    border-radius: 20px;
+    display: flex;
+      justify-content: center;
+    align-items: center;
+}
+
+
+#lebel{
+    color: white;
+    font-family: Roboto;
+    font-size: 6em;
+    position: relative;
+    top: -200px;
+    left: 300px;
+}
+
+
+button{
+    position: relative;
+    top: -40px;
+    width: 150px;
+    height: 50px;
+    margin:30px;
+    border-radius: 5px;
+    background-color: #0083f7;
+    border: none;
+    font-size: 25px;
+    color: white;
+    letter-spacing: 2px;
 }
